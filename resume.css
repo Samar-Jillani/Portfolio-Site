@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: lightslategray;
+  color: white;
+  padding: 40px;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #00ffc8;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #1c2a3e;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.back-arrow:hover {
+  background-color: #00ccaa;
+  color: #fff;
+}
+
+.resume-container {
+  text-align: center;
+  max-width: 900px;
+  margin: 80px auto 0;
+}
+
+.resume-container h1 {
+  font-size: 36px;
+  color: #00ffc8;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.resume-card {
+  background-color: #1c2a3e;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.1);
+}
+
+.resume-icon {
+  font-size: 60px;
+  background-color: #0d1b2a;
+  color: #00ffc8;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.3);
+}
+
+.resume-card p {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.view-btn, .download-btn {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.view-btn {
+  border: 2px solid #00ffc8;
+  color: #00ffc8;
+  background-color: transparent;
+}
+
+.view-btn:hover {
+  background-color: #00ffc8;
+  color: #0d1b2a;
+}
+
+.download-btn {
+  background-color: #00ffc8;
+  color: #0d1b2a;
+}
+
+.download-btn:hover {
+  background-color: #00ccaa;
+}

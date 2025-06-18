@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: skyblue;
+  padding: 30px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 30px;
+}
+
+.sidebar-header span{
+    font-size: 25px;
+}
+
+.back-arrow {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.back-arrow:hover {
+  color: #004466;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sidebar ul li a:hover {
+  color: darkorchid;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column; 
+  margin-left: 210px;
+  margin-top: 100px;
+}
+
+.section-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  max-width: 600px;
+}
+
+.nav-cards a {
+  text-decoration: none;
+}
+
+.nav-card {
+  background-color: skyblue;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 290px;
+  height: 120px;
+  width: 295px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: transform 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.nav-card:hover {
+  transform: scale(1.05);
+  background-color: deepskyblue;
+}
